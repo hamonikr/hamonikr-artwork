@@ -1,0 +1,8 @@
+/etc/X11/Xsession.d/99hamonikr
+/etc/lightdm/lightdm-gtk-greeter.conf.d/99_hamonikr.conf
+/etc/skel/.config/caja/desktop-metadata
+/etc/skel/.config/hexchat/hexchat.conf
+/etc/skel/.config/hexchat/servlist.conf
+/etc/skel/.config/qt5ct/qt5ct.conf
+/etc/skel/.gtkrc-2.0
+/etc/skel/.gtkrc-xfce
