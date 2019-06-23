@@ -9,11 +9,19 @@ Maintainer: Kevin Kim <root@hamonikr.org>
 ```
 $ wget -O - http://apt.hamonikr.org/hamonikr.key | sudo apt-key add -
 
-$ echo "deb https://apt.hamonikr.org me main upstream" > /etc/apt/sources.list.d/hamonikr.list
+$ echo "deb https://apt.hamonikr.org me main upstream" | sudo tee -a /etc/apt/sources.list.d/hamonikr.list
 
 $ sudo apt update
 
 $ sudo apt install hamonikr-artwork
+```
+
+# Build
+
+데비안 패키지를 생성하기 위하여 아래와 같이 명령을 실행하면 생성됩니다.
+
+```
+$ apt build
 ```
 
 # License
