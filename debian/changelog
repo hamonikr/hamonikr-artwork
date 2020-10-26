@@ -1,6 +1,19 @@
-hamonikr-artwork (1.0.0) me; urgency=medium
+hamonikr-artwork (2.0.2) jin; urgency=medium
 
-  * Initial release
-  * Apply hamonikr background and settings
+  * Apply to hamonikr-jin-icon-theme
 
- -- Kevin Kim <root@hamonikr.org>  Sun, 23 Jun 2019 15:31:18 +0900
+ -- HamoniKR <pkg@hamonikr.org>  Mon, 26 Oct 2020 10:43:23 +0900
+
+hamonikr-artwork (2.0.1) focal; urgency=medium
+
+  * Added glib schemas override file
+  * Added hamonikr-backgrounds pkg dependancy
+
+ -- HamoniKR <pkg@hamonikr.org>  Tue, 20 Oct 2020 20:00:09 +0900
+
+hamonikr-artwork (2.0.0) focal; urgency=medium
+
+  * build for HamoniKR 4.0
+
+ -- HamoniKR <pkg@hamonikr.org>  Sun, 18 Oct 2020 12:57:52 +0900
+

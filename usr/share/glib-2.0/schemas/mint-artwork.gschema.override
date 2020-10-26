@@ -1,25 +1,26 @@
 [x.dm.slick-greeter]
 theme-name='Mint-X'
-icon-theme-name='Mint-X-Dark'
-font-name='Ubuntu 11'
+icon-theme-name='HamoniKR'
+font-name='Noto Sans CJK KR 10'
 background='/usr/share/backgrounds/hamonikr/default_background.jpg'
 draw-user-backgrounds=true
 
 [org.onboard]
 theme='/usr/share/mint-artwork/onboard/Nightshade.theme'
 key-label-overrides=['RWIN:Super:', 'LWIN:Super:']
+status-icon-provider='AppIndicator'
 
 [org.onboard.theme-settings]
 key-label-overrides=['RWIN:Super:', 'LWIN:Super:']
 
 [org.gnome.desktop.interface]
 cursor-theme='DMZ-White'
-document-font-name="Noto Sans 10"
-font-name="Noto Sans 9"
+document-font-name="Noto Sans CJK KR 10"
+font-name="Noto Sans CJK KR 10"
 gtk-key-theme='Default'
 gtk-theme='Mint-Y'
-icon-theme='Mint-Y'
-monospace-font-name="Monospace 10"
+icon-theme='HamoniKR'
+monospace-font-name="Inconsolata Medium 12"
 toolkit-accessibility=false
 
 [org.gnome.desktop.background]
@@ -34,31 +35,34 @@ show-desktop-icons=false
 button-layout=':minimize,maximize,close'
 num-workspaces=4
 theme='Mint-Y'
-titlebar-font="Noto Sans Bold 10"
+titlebar-font="Noto Sans CJK KR 11"
 titlebar-uses-system-font=false
 
 [org.gnome.desktop.sound]
 event-sounds=false
 input-feedback-sounds=false
-theme-name="Linux Mint"
+theme-name="LinuxMint"
 
 [org.gnome.settings-daemon.plugins.xsettings]
 hinting="slight"
 
+[org.gnome.gnote]
+use-client-side-decorations='gnome,ubuntu,pop,cinnamon,cinnamon2d,mate,xfce'
+
 [org.cinnamon.desktop.interface]
-cursor-theme='DMZ-White'
+cursor-theme='HamoniKR-Cursor'
 gtk-key-theme='Default'
 gtk-theme='Mint-Y'
-icon-theme='Mint-Y'
+icon-theme='HamoniKR'
 menus-have-icons=true
 toolkit-accessibility=false
-font-name="Noto Sans 9"
+font-name="Noto Sans CJK KR 10"
 scaling-factor=uint32 0
 
 [org.cinnamon.desktop.screensaver]
-font-date="Noto Sans 24"
-font-message="Noto Sans 14"
-font-time="Noto Sans 64"
+font-date="Ubuntu 24"
+font-message="Ubuntu 14"
+font-time="Ubuntu 64"
 
 [org.cinnamon.desktop.background]
 primary-color="#000000"
@@ -71,7 +75,7 @@ picture-options="zoom"
 button-layout=':minimize,maximize,close'
 num-workspaces=4
 theme='Mint-Y'
-titlebar-font="Noto Sans Bold 10"
+titlebar-font="Noto Sans CJK KR 10"
 titlebar-uses-system-font=false
 
 [org.cinnamon.settings-daemon.plugins.xsettings]
@@ -83,12 +87,13 @@ button-power="interactive"
 lock-on-suspend=true
 
 [org.cinnamon.theme]
-name='Linux Mint'
+name='Mint-Y-Dark'
 
 [org.cinnamon]
 desktop-effects-minimize-effect="traditional"
 panel-scale-text-icons=true
 workspace-expo-view-as-grid=true
+app-menu-icon-name="linuxmint-logo-5"
 
 [org.cinnamon.sounds]
 close-file="/usr/share/mint-artwork/sounds/close.oga"
@@ -129,7 +134,7 @@ settings-daemon-uses-logind=true
 
 [org.nemo.desktop]
 computer-icon-visible=true
-font="Noto Sans 10"
+font="Noto Sans CJK KR 10"
 home-icon-visible=true
 volumes-visible=true
 
@@ -141,13 +146,13 @@ thumbnail-limit=4294967295
 
 [org.mate.interface]
 buttons-have-icons=false
-document-font-name="Noto Sans 10"
+document-font-name="Noto Sans CJK KR 10"
 enable-animations=false
-font-name="Noto Sans 9"
+font-name="Noto Sans CJK KR 10"
 gtk-theme="Mint-Y"
-icon-theme="Mint-Y"
+icon-theme="HamoniKR"
 menus-have-icons=true
-monospace-font-name="Monospace 10"
+monospace-font-name="Inconsolata Medium 12"
 
 [org.mate.background]
 color-shading-type="solid"
@@ -164,11 +169,11 @@ hinting="slight"
 rgba-order="rgb"
 
 [org.mate.sound]
-theme-name="Linux Mint"
+theme-name="LinuxMint"
 
 [org.mate.caja.desktop]
 computer-icon-visible=true
-font="Noto Sans 10"
+font="Ubuntu 10"
 home-icon-visible=true
 trash-icon-visible=false
 volumes-visible=true
@@ -196,15 +201,14 @@ theme="coco"
 [org.mate.peripherals-touchpad]
 natural-scroll=true
 tap-to-click=true
-
-[org.mate.peripherals-keyboard-xkb.kbd]
-options=['terminate\tterminate:ctrl_alt_bksp']
+two-finger-click=3
+three-finger-click=2
 
 [org.mate.peripherals-mouse]
 cursor-theme="default"
 
 [org.mate.Marco.general]
-titlebar-font="Noto Sans Bold 10"
+titlebar-font="Noto Sans CJK KR 11"
 
 [org.mate.Marco.global-keybindings]
 run-command-terminal="<Primary><Alt>t"
@@ -216,8 +220,24 @@ notify-low-capacity=false
 default-layout='mint'
 enable-sni-support=false
 
+[org.mate.applications-calculator]
+exec='gnome-calculator'
+
 [org.mate.applications-at-mobility]
 exec='onboard'
 
+[org.mate.applications-messenger]
+exec='hexchat'
+
+[org.mate.SettingsDaemon.plugins.media-keys]
+magnifier='<Alt><Mod4>m'
+screenreader='<Alt><Mod4>s'
+on-screen-keyboard='<Alt><Mod4>k'
+
 [org.gtk.Settings.FileChooser]
 sort-directories-first=true
+startup-mode='cwd'
+
+[com.github.maoschanz.drawing]
+decorations='ssd-symbolic'
+

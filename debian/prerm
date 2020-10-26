@@ -8,14 +8,7 @@ set -e
 case "$1" in
     remove|deconfigure|failed-upgrade)
 
-        update-alternatives \
-            --remove ldm-theme /usr/share/ldm/themes/mint
 
-        update-alternatives \
-            --remove text.plymouth /usr/share/plymouth/themes/mint-text/mint-text.plymouth
-
-        update-alternatives \
-            --remove default.plymouth /usr/share/plymouth/themes/mint-logo/mint-logo.plymouth
     ;;
 
     upgrade)

@@ -4,25 +4,26 @@
 
 set -e
 
-update_background (){
-    # Update the default BG date (to force a DE bg refresh on upgrade)
+update_icons (){
     if [ -e /usr/share/backgrounds/hamonikr/default_background.jpg ]
     then
         touch /usr/share/backgrounds/hamonikr/default_background.jpg
         echo "Updated timestamp for default background"
     fi
+    if [ -e /usr/share/cinnamon/theme/menu.svg ]
+    then
+        touch /usr/share/cinnamon/theme/menu.svg
+        echo "Updated timestamp for /usr/share/cinnamon/theme/menu.svg"
+    fi    
+    gtk-update-icon-cache || true
 }
 
 case "$1" in
     configure)
 
-    update_background
+    update_icons
 
     glib-compile-schemas /usr/share/glib-2.0/schemas
-
-    update-alternatives \
-        --install /usr/share/ldm/themes/default ldm-theme \
-        /usr/share/ldm/themes/mint 80
 
     ;;
     abort-upgrade|abort-remove|abort-deconfigure)
@@ -30,7 +31,7 @@ case "$1" in
     ;;
     triggered)
 
-    update_background
+    update_icons
 
     ;;
     *)
