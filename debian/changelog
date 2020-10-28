@@ -1,3 +1,10 @@
+hamonikr-artwork (2.0.3) jin; urgency=medium
+
+  * overriding grouped-window-list@cinnamon.org settings-schema.json
+  * custom app define for favorite-apps
+
+ -- HamoniKR <pkg@hamonikr.org>  Wed, 28 Oct 2020 18:06:53 +0900
+
 hamonikr-artwork (2.0.2) jin; urgency=medium
 
   * Apply to hamonikr-jin-icon-theme
