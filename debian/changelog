@@ -1,3 +1,9 @@
+hamonikr-artwork (2.0.4) jin; urgency=medium
+
+  * change setting to monospace-font-name="Monospace 10"
+
+ -- HamoniKR <pkg@hamonikr.org>  Wed, 28 Oct 2020 18:45:30 +0900
+
 hamonikr-artwork (2.0.3) jin; urgency=medium
 
   * overriding grouped-window-list@cinnamon.org settings-schema.json

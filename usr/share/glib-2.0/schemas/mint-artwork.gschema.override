@@ -20,7 +20,7 @@ font-name="Noto Sans CJK KR 10"
 gtk-key-theme='Default'
 gtk-theme='Mint-Y'
 icon-theme='HamoniKR'
-monospace-font-name="Inconsolata Medium 12"
+monospace-font-name="Monospace 10"
 toolkit-accessibility=false
 
 [org.gnome.desktop.background]
@@ -155,7 +155,7 @@ font-name="Noto Sans CJK KR 10"
 gtk-theme="Mint-Y"
 icon-theme="HamoniKR"
 menus-have-icons=true
-monospace-font-name="Inconsolata Medium 12"
+monospace-font-name="Monospace 10"
 
 [org.mate.background]
 color-shading-type="solid"
