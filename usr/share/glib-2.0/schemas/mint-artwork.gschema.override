@@ -50,7 +50,7 @@ hinting="slight"
 use-client-side-decorations='gnome,ubuntu,pop,cinnamon,cinnamon2d,mate,xfce'
 
 [org.cinnamon]
-favorite-apps="['naver-whale.desktop', 'mintinstall.desktop', 'cinnamon-settings.desktop', 'org.gnome.Terminal.desktop', 'nemo.desktop']"
+favorite-apps=['naver-whale.desktop', 'mintinstall.desktop', 'cinnamon-settings.desktop', 'org.gnome.Terminal.desktop', 'nemo.desktop']
 
 [org.cinnamon.desktop.interface]
 cursor-theme='HamoniKR-Cursor'
