@@ -7,7 +7,7 @@ Standards-Version: 3.9.5
 
 Package: hamonikr-artwork
 Architecture: all
-Depends: hamonikr-jin-icon-theme, fonts-noto-cjk-extra, fonts-inconsolata
+Depends: ${misc:Depends}, hamonikr-jin-icon-theme, fonts-noto-cjk-extra, fonts-inconsolata
 Conflicts: mint-artwork-debian, mint-artwork-debian-cinnamon, mint-artwork-debian-mate, mint-artwork-common, mint-artwork-cinnamon, mint-artwork-gnome, mint-artwork-mate, mint-artwork-xfce, mint-backgrounds-xfce, ldm-mint-theme
 Replaces: mint-artwork, mint-artwork-debian, mint-artwork-debian-cinnamon, mint-artwork-debian-mate, mint-artwork-common, mint-artwork-cinnamon, mint-artwork-gnome, mint-artwork-mate, mint-artwork-xfce, mint-backgrounds-xfce, ldm-mint-theme, hamonikr-backgrounds
 Provides: mint-mate-default-settings
