@@ -1,3 +1,10 @@
+hamonikr-artwork (2.1.1) jin; urgency=medium
+
+  * Changed thumnail png
+  * Add test script
+
+ -- HamoniKR <pkg@hamonikr.org>  Sat, 31 Oct 2020 12:18:21 +0900
+
 hamonikr-artwork (2.1.0) jin; urgency=medium
 
   * Add default Gnome, Cinnamon Theme
