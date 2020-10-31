@@ -14,11 +14,11 @@ status-icon-provider='AppIndicator'
 key-label-overrides=['RWIN:Super:', 'LWIN:Super:']
 
 [org.gnome.desktop.interface]
-cursor-theme='DMZ-White'
+cursor-theme='HamoniKR-Cursor'
 document-font-name="Noto Sans CJK KR 10"
 font-name="Noto Sans CJK KR 10"
 gtk-key-theme='Default'
-gtk-theme='Mint-Y'
+gtk-theme='HamoniKR'
 icon-theme='HamoniKR'
 monospace-font-name="Monospace 10"
 toolkit-accessibility=false
@@ -34,7 +34,7 @@ show-desktop-icons=false
 [org.gnome.desktop.wm.preferences]
 button-layout=':minimize,maximize,close'
 num-workspaces=4
-theme='Mint-Y'
+theme='HamoniKR'
 titlebar-font="Noto Sans CJK KR 11"
 titlebar-uses-system-font=false
 
@@ -74,7 +74,7 @@ enabled-applets=['panel1:left:0:menu@cinnamon.org:0', 'panel1:left:1:grouped-win
 [org.cinnamon.desktop.interface]
 cursor-theme='HamoniKR-Cursor'
 gtk-key-theme='Default'
-gtk-theme='Mint-Y'
+gtk-theme='HamoniKR'
 icon-theme='HamoniKR'
 menus-have-icons=true
 toolkit-accessibility=false
@@ -96,7 +96,7 @@ picture-options="zoom"
 [org.cinnamon.desktop.wm.preferences]
 button-layout=':minimize,maximize,close'
 num-workspaces=4
-theme='Mint-Y'
+theme='HamoniKR'
 titlebar-font="Noto Sans CJK KR 10"
 titlebar-uses-system-font=false
 
@@ -171,7 +171,7 @@ buttons-have-icons=false
 document-font-name="Noto Sans CJK KR 10"
 enable-animations=false
 font-name="Noto Sans CJK KR 10"
-gtk-theme="Mint-Y"
+gtk-theme="HamoniKR"
 icon-theme="HamoniKR"
 menus-have-icons=true
 monospace-font-name="Monospace 10"
