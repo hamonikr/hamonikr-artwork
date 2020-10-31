@@ -1,3 +1,9 @@
+hamonikr-artwork (2.0.9) jin; urgency=medium
+
+  * Add default Terminal setting
+
+ -- HamoniKR <pkg@hamonikr.org>  Sat, 31 Oct 2020 10:53:48 +0900
+
 hamonikr-artwork (2.0.8) jin; urgency=medium
 
   * change image path in hamonikr.xml
