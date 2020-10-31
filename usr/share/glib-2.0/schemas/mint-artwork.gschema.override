@@ -109,7 +109,7 @@ button-power="interactive"
 lock-on-suspend=true
 
 [org.cinnamon.theme]
-name='Mint-Y-Dark'
+name='HamoniKR'
 
 [org.cinnamon]
 desktop-effects-minimize-effect="traditional"
