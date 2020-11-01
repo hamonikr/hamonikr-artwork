@@ -1,3 +1,11 @@
+hamonikr-artwork (2.1.5) jin; urgency=medium
+
+  * Update usr/share/glib-2.0/schemas/mint-artwork.gschema.override
+   - www=['<Super>w']
+   - Add shortcut for open web-browser
+
+ -- HamoniKR <pkg@hamonikr.org>  Sun, 01 Nov 2020 12:10:15 +0900
+
 hamonikr-artwork (2.1.4) jin; urgency=medium
 
   * Changed monospace font to "Noto Sans Mono CJK KR" "Regular"
