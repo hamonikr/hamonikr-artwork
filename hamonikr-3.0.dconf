@@ -1,0 +1,309 @@
+[x/dm/slick-greeter]
+background='/usr/share/backgrounds/HamoniKR/hamonikr-8.jpg'
+
+[net/launchpad/plank/docks/dock1]
+icon-size=48
+show-dock-item=false
+position='bottom'
+dock-items=['naver-whale.dockitem', 'code.dockitem', 'org.remmina.Remmina.dockitem', 'org.gnome.Terminal.dockitem', 'desktop.dockitem', 'clock.dockitem']
+unhide-delay=0
+items-alignment='center'
+theme='Transparent'
+hide-mode='intelligent'
+pinned-only=false
+auto-pinning=true
+alignment='center'
+zoom-percent=150
+hide-delay=0
+zoom-enabled=true
+monitor=''
+lock-items=false
+tooltips-enabled=true
+pressure-reveal=false
+offset=0
+current-workspace-only=false
+
+[org/gnome/evolution-data-server]
+network-monitor-gio-name=''
+migrated=true
+
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+use-system-font=false
+font='Ubuntu Mono 12'
+
+[org/gnome/terminal/legacy]
+schema-version=uint32 3
+
+[org/gnome/file-roller/listing]
+sort-method='name'
+name-column-width=250
+sort-type='ascending'
+list-mode='as-folder'
+show-path=false
+
+[org/gnome/file-roller/dialogs/new]
+default-extension='.tar.gz'
+volume-size=0
+encrypt-header=false
+
+[org/gnome/file-roller/dialogs/extract]
+skip-newer=false
+recreate-folders=true
+
+[org/gnome/file-roller/ui]
+sidebar-width=200
+window-height=480
+window-width=600
+
+[org/gnome/nm-applet]
+disable-connected-notifications=true
+
+[org/gnome/nm-applet/eap/63018e8a-699f-4a6b-bf2e-7c4707507983]
+ignore-phase2-ca-cert=false
+ignore-ca-cert=false
+
+[org/gnome/nm-applet/eap/a487b82c-18fd-48b2-82e2-3645c515961c]
+ignore-phase2-ca-cert=false
+ignore-ca-cert=false
+
+[org/gnome/nm-applet/eap/230af111-ae82-48b8-8696-b6ad0564a211]
+ignore-phase2-ca-cert=false
+ignore-ca-cert=false
+
+[org/gnome/calendar]
+window-position=(0, 0)
+active-view='month'
+window-maximized=true
+window-size=(1920, 1031)
+
+[org/gnome/cheese]
+photo-y-resolution=480
+burst-delay=1000
+video-y-resolution=480
+camera='USB2.0 VGA UVC WebCam: USB2.0 V'
+photo-x-resolution=640
+video-x-resolution=640
+
+[org/gnome/desktop/a11y/applications]
+screen-keyboard-enabled=false
+screen-reader-enabled=false
+
+[org/gnome/desktop/a11y/mouse]
+secondary-click-enabled=false
+secondary-click-time=1.2
+dwell-time=1.2
+dwell-threshold=10
+dwell-click-enabled=false
+
+[org/gnome/desktop/lockdown]
+disable-save-to-disk=true
+
+[org/gnome/desktop/calendar]
+show-weekdate=false
+
+[org/gnome/desktop/interface]
+document-font-name='나눔스퀘어 10'
+cursor-theme='Macbuntu-OSX-cursors'
+monospace-font-name='D2Coding 10'
+toolkit-accessibility=false
+
+[org/gtk/settings/file-chooser]
+sort-column='name'
+sidebar-width=155
+window-position=(451, 201)
+show-size-column=true
+show-hidden=false
+window-size=(1018, 742)
+sort-directories-first=true
+date-format='regular'
+sort-order='ascending'
+location-mode='path-bar'
+
+[org/nimf]
+hidden-active-engines=['nimf-libhangul', 'nimf-system-keyboard']
+setup-environment-variables=false
+
+[org/virt-manager/virt-manager/vmlist-fields]
+network-traffic=false
+disk-usage=false
+
+[org/virt-manager/virt-manager]
+manager-window-height=550
+manager-window-width=550
+
+[org/virt-manager/virt-manager/details]
+show-toolbar=true
+
+[org/virt-manager/virt-manager/confirm]
+forcepoweroff=true
+
+[org/virt-manager/virt-manager/vms/73de1bc218784a3b87c789829f894a0c]
+vm-window-size=(808, 613)
+
+[org/virt-manager/virt-manager/connections]
+autoconnect=['qemu:///system']
+uris=['qemu:///system']
+
+[org/virt-manager/virt-manager/urls]
+isos=['/home/hamonikr/다운로드/lmde-4-cinnamon-64bit.iso']
+
+[org/onboard]
+current-settings-page=2
+system-theme-associations={'HighContrast': 'HighContrast', 'HighContrastInverse': 'HighContrastInverse', 'LowContrast': 'LowContrast', 'ContrastHighInverse': 'HighContrastInverse', 'Default': ''}
+schema-version='2.3'
+use-system-defaults=false
+layout='/usr/share/onboard/layouts/Compact-ko.onboard'
+
+[org/onboard/theme-settings]
+key-size=94.0
+key-stroke-width=0.0
+key-gradient-direction=-3.0
+color-scheme='/usr/share/onboard/themes/Charcoal.colors'
+key-fill-gradient=8.0
+key-label-overrides=['RWIN:Super:', 'LWIN:Super:']
+key-style='gradient'
+key-stroke-gradient=8.0
+roundrect-radius=20.0
+
+[org/onboard/window/landscape]
+x=1062
+y=444
+
+[org/x/viewer/view]
+background-color='rgb(0,0,0)'
+use-background-color=true
+
+[org/x/player]
+subtitle-encoding='UTF-8'
+active-plugins=['rotation', 'vimeo', 'media_player_keys', 'autoload-subtitles', 'screenshot', 'recent', 'movie-properties', 'skipto', 'opensubtitles', 'screensaver', 'dbusservice', 'apple-trailers', 'chapters']
+debug=false
+
+[org/x/editor/preferences/ui]
+statusbar-visible=true
+
+[org/x/editor/plugins/filebrowser/on-load]
+virtual-root='file:///home/ji'
+tree-view=false
+root='file:///'
+
+[org/x/editor/plugins]
+active-plugins=['time', 'sort', 'spell', 'modelines', 'textsize', 'filebrowser', 'docinfo']
+
+[org/x/editor/state/window]
+size=(959, 1056)
+state=87168
+bottom-panel-size=140
+side-panel-size=200
+side-panel-active-page=827629879
+
+[org/cinnamon]
+panels-autohide=['1:false']
+panels-height=['1:40']
+command-history=['gksu synaptic', 'pkexec synaptic', 'env LANGUAGE=en gnome-terminal']
+enabled-applets=['panel1:left:0:menu@cinnamon.org:0', 'panel1:left:1:show-desktop@cinnamon.org:1', 'panel1:left:2:grouped-window-list@cinnamon.org:2', 'panel1:right:1:systray@cinnamon.org:3', 'panel1:right:2:notifications@cinnamon.org:4', 'panel1:right:3:printers@cinnamon.org:5', 'panel1:right:4:removable-drives@cinnamon.org:6', 'panel1:right:5:keyboard@cinnamon.org:7', 'panel1:right:6:bluetooth@cinnamon.org:8', 'panel1:right:7:network@cinnamon.org:9', 'panel1:right:8:sound@cinnamon.org:10', 'panel1:right:9:power@cinnamon.org:11', 'panel1:right:10:calendar@cinnamon.org:12', 'panel1:right:0:ScreenShot+RecordDesktop@tech71:13']
+workspace-osd-x=50
+workspace-osd-y=50
+next-applet-id=14
+enabled-desklets=@as []
+enabled-search-providers=['google@hamonikr.org']
+workspace-osd-duration=400
+applet-cache-updated=1598963840
+panels-enabled=['1:0:top']
+
+[org/cinnamon/settings-daemon/plugins/xsettings]
+hinting='full'
+
+[org/cinnamon/settings-daemon/peripherals/touchpad]
+touchpad-enabled=true
+
+[org/cinnamon/settings-daemon/peripherals/keyboard]
+repeat-interval=uint32 30
+delay=uint32 500
+numlock-state='on'
+
+[org/cinnamon/desktop/a11y/applications]
+screen-keyboard-enabled=false
+screen-reader-enabled=false
+
+[org/cinnamon/desktop/a11y/mouse]
+secondary-click-enabled=false
+secondary-click-time=1.2
+dwell-time=1.2
+dwell-threshold=10
+dwell-click-enabled=false
+
+[org/cinnamon/desktop/keybindings/custom-keybindings/custom2]
+binding=['<Primary><Shift>f']
+command='fsearch'
+name='데스크탑검색'
+
+[org/cinnamon/desktop/keybindings/custom-keybindings/custom1]
+binding=['<Primary><Shift><Alt>p']
+command='shutter -w'
+name='선택한 윈도우 화면캡처'
+
+[org/cinnamon/desktop/keybindings/custom-keybindings/custom0]
+binding=['<Primary><Alt>p']
+command='shutter -s'
+name='특정영역 화면캡처'
+
+[org/cinnamon/desktop/keybindings/custom-keybindings/custom3]
+binding=['<Primary><Alt>z']
+command='gnome-terminal -e /usr/bin/zsh'
+name='ZSH'
+
+[org/cinnamon/desktop/keybindings]
+custom-list=['custom0', 'custom1', 'custom2', 'custom3']
+
+[org/cinnamon/desktop/keybindings/media-keys]
+www=['XF86WWW', '<Super>w']
+
+[org/cinnamon/desktop/background]
+picture-uri='file:////usr/share/backgrounds/HamoniKR/hamonikr-7.jpg'
+
+[org/cinnamon/desktop/interface]
+font-name='나눔 스퀘어 10'
+text-scaling-factor=1.0
+cursor-blink-time=1200
+icon-theme='MacBuntu-OSX'
+gtk-theme='HamoniKR-Black'
+toolkit-accessibility=false
+
+[org/cinnamon/desktop/sound]
+event-sounds=false
+
+[org/cinnamon/desktop/wm/preferences]
+theme='HamoniKR-Black'
+titlebar-font='나눔스퀘어 Bold 10'
+
+[org/cinnamon/theme]
+symbolic-relative-size=0.67000000000000004
+name='HamoniKR-Black'
+
+[org/nemo/preferences]
+show-hidden-files=false
+show-location-entry=true
+
+[org/nemo/window-state]
+start-with-sidebar=true
+geometry='798x531+551+254'
+maximized=false
+sidebar-bookmark-breakpoint=5
+
+[org/nemo/desktop]
+font='나눔스퀘어 11'
+
+[apps/seahorse/windows/key-manager]
+width=640
+height=476
+
+[apps/seahorse/listing]
+sidebar-width=148
+keyrings-selected=['secret-service://login', 'openssh:///home/hamonikr/.ssh']
+
+[com/linuxmint/updates]
+window-pane-position=344
+refresh-last-run=1602338290
+window-height=570
+window-width=790
+show-welcome-page=false
