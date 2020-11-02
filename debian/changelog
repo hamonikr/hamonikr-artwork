@@ -1,3 +1,10 @@
+hamonikr-artwork (2.1.6) jin; urgency=medium
+
+  * Update usr/share/glib-2.0/schemas/mint-artwork.gschema.override
+   - Add xapp-status@cinnamon.org applet as default
+
+ -- HamoniKR <pkg@hamonikr.org>  Mon, 02 Nov 2020 13:51:58 +0900
+ 
 hamonikr-artwork (2.1.5) jin; urgency=medium
 
   * Update usr/share/glib-2.0/schemas/mint-artwork.gschema.override
