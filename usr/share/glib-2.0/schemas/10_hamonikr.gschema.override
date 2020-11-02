@@ -1,8 +1,8 @@
 [x.dm.slick-greeter]
 theme-name='Mint-X'
-icon-theme-name='Mint-X-Dark'
-font-name='Ubuntu 11'
-background='/usr/share/backgrounds/linuxmint/default_background.jpg'
+icon-theme-name='HamoniKR'
+font-name='Noto Sans CJK KR 10'
+background='/usr/share/backgrounds/hamonikr/default_background.jpg'
 draw-user-backgrounds=true
 
 [org.onboard]
@@ -14,19 +14,19 @@ status-icon-provider='AppIndicator'
 key-label-overrides=['RWIN:Super:', 'LWIN:Super:']
 
 [org.gnome.desktop.interface]
-cursor-theme='DMZ-White'
-document-font-name="Sans 10"
-font-name="Ubuntu 10"
+cursor-theme='HamoniKR-Cursor'
+document-font-name="Noto Sans CJK KR 10"
+font-name="Noto Sans CJK KR 10"
 gtk-key-theme='Default'
-gtk-theme='Mint-Y'
-icon-theme='Mint-Y'
-monospace-font-name="Monospace 10"
+gtk-theme='HamoniKR'
+icon-theme='HamoniKR'
+monospace-font-name="Ubuntu Mono Regular 12"
 toolkit-accessibility=false
 
 [org.gnome.desktop.background]
 color-shading-type="solid"
 picture-options="zoom"
-picture-uri='file:///usr/share/backgrounds/linuxmint/default_background.jpg'
+picture-uri='file:///usr/share/backgrounds/hamonikr/default_background.jpg'
 primary-color="#000000"
 secondary-color="#000000"
 show-desktop-icons=false
@@ -34,8 +34,8 @@ show-desktop-icons=false
 [org.gnome.desktop.wm.preferences]
 button-layout=':minimize,maximize,close'
 num-workspaces=4
-theme='Mint-Y'
-titlebar-font="Ubuntu Medium 10"
+theme='HamoniKR'
+titlebar-font="Noto Sans CJK KR 11"
 titlebar-uses-system-font=false
 
 [org.gnome.desktop.sound]
@@ -43,20 +43,49 @@ event-sounds=false
 input-feedback-sounds=false
 theme-name="LinuxMint"
 
+[org.gnome.Terminal.Legacy.Profile]
+background-color='rgb(0,0,0)'
+background-transparency-percent=20
+bold-color-same-as-fg=true
+cursor-colors-set=false
+default-size-columns=95
+font='Inconsolata Medium 12'
+foreground-color='rgb(211,215,207)'
+highlight-colors-set=false
+palette=['rgb(46,52,54)', 'rgb(204,0,0)', 'rgb(78,154,6)', 'rgb(196,160,0)', 'rgb(52,101,164)', 'rgb(117,80,123)', 'rgb(6,152,154)', 'rgb(211,215,207)', 'rgb(85,87,83)', 'rgb(239,41,41)', 'rgb(138,226,52)', 'rgb(252,233,79)', 'rgb(114,159,207)', 'rgb(173,127,168)', 'rgb(52,226,226)', 'rgb(238,238,236)']
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='hamonikr-setting'
+
+[org.gnome.meld]
+custom-font='Ubuntu Mono Regular, 12'
+
 [org.gnome.settings-daemon.plugins.xsettings]
 hinting="slight"
 
 [org.gnome.gnote]
 use-client-side-decorations='gnome,ubuntu,pop,cinnamon,cinnamon2d,mate,xfce'
 
+[org.cinnamon]
+favorite-apps=['naver-whale.desktop', 'mintinstall.desktop', 'cinnamon-settings.desktop', 'org.gnome.Terminal.desktop', 'nemo.desktop']
+panels-enabled=['1:0:bottom'] 
+panels-height=['1:38']
+enabled-applets=['panel1:left:0:menu@cinnamon.org:0', 'panel1:left:1:grouped-window-list@cinnamon.org:1', 'panel1:right:0:systray@cinnamon.org:2', 'panel1:right:1:expo@cinnamon.org:3', 'panel1:right:2:xapp-status@cinnamon.org:4', 'panel1:right:3:notifications@cinnamon.org:5', 'panel1:right:4:printers@cinnamon.org:6', 'panel1:right:5:removable-drives@cinnamon.org:7', 'panel1:right:6:keyboard@cinnamon.org:8', 'panel1:right:7:bluetooth@cinnamon.org:9', 'panel1:right:8:network@cinnamon.org:10', 'panel1:right:9:sound@cinnamon.org:11', 'panel1:right:10:power@cinnamon.org:12', 'panel1:right:11:calendar@cinnamon.org:13', 'panel1:right:12:show-desktop@cinnamon.org:14', 'panel1:right:13:user@cinnamon.org:15']
+
+[org.cinnamon.desktop.keybindings.media-keys]
+www=['<Super>w']
+terminal=['<Primary><Alt>t']
+
 [org.cinnamon.desktop.interface]
-cursor-theme='DMZ-White'
+cursor-theme='HamoniKR-Cursor'
 gtk-key-theme='Default'
-gtk-theme='Mint-Y'
-icon-theme='Mint-Y'
+gtk-theme='HamoniKR'
+icon-theme='HamoniKR'
 menus-have-icons=true
 toolkit-accessibility=false
-font-name="Ubuntu 10"
+font-name="Noto Sans CJK KR 10"
 scaling-factor=uint32 0
 
 [org.cinnamon.desktop.screensaver]
@@ -68,14 +97,14 @@ font-time="Ubuntu 64"
 primary-color="#000000"
 secondary-color="#000000"
 color-shading-type="solid"
-picture-uri='file:///usr/share/backgrounds/linuxmint/default_background.jpg'
+picture-uri='file:///usr/share/backgrounds/hamonikr/default_background.jpg'
 picture-options="zoom"
 
 [org.cinnamon.desktop.wm.preferences]
 button-layout=':minimize,maximize,close'
 num-workspaces=4
-theme='Mint-Y'
-titlebar-font="Ubuntu Medium 10"
+theme='HamoniKR'
+titlebar-font="Noto Sans CJK KR 10"
 titlebar-uses-system-font=false
 
 [org.cinnamon.settings-daemon.plugins.xsettings]
@@ -87,7 +116,7 @@ button-power="interactive"
 lock-on-suspend=true
 
 [org.cinnamon.theme]
-name='Mint-Y-Dark'
+name='HamoniKR'
 
 [org.cinnamon]
 desktop-effects-minimize-effect="traditional"
@@ -134,7 +163,7 @@ settings-daemon-uses-logind=true
 
 [org.nemo.desktop]
 computer-icon-visible=true
-font="Ubuntu 10"
+font="Noto Sans CJK KR 10"
 home-icon-visible=true
 volumes-visible=true
 
@@ -146,17 +175,17 @@ thumbnail-limit=4294967295
 
 [org.mate.interface]
 buttons-have-icons=false
-document-font-name="Sans 10"
+document-font-name="Noto Sans CJK KR 10"
 enable-animations=false
-font-name="Ubuntu 10"
-gtk-theme="Mint-Y"
-icon-theme="Mint-Y"
+font-name="Noto Sans CJK KR 10"
+gtk-theme="HamoniKR"
+icon-theme="HamoniKR"
 menus-have-icons=true
-monospace-font-name="Monospace 10"
+monospace-font-name="Ubuntu Mono Regular 12"
 
 [org.mate.background]
 color-shading-type="solid"
-picture-filename="/usr/share/backgrounds/linuxmint/default_background.jpg"
+picture-filename="/usr/share/backgrounds/hamonikr/default_background.jpg"
 picture-options="zoom"
 primary-color="#000000000000"
 secondary-color="#000000000000"
@@ -208,7 +237,7 @@ three-finger-click=2
 cursor-theme="default"
 
 [org.mate.Marco.general]
-titlebar-font="Ubuntu Medium 10"
+titlebar-font="Noto Sans CJK KR 11"
 
 [org.mate.Marco.global-keybindings]
 run-command-terminal="<Primary><Alt>t"
