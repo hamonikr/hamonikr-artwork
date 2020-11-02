@@ -1,9 +1,24 @@
+hamonikr-artwork (2.1.7) jin; urgency=medium
+
+  * Updated usr/share/glib-2.0/schemas/10_hamonikr.gschema.override
+   - change monospace font to Inconsolata Medium 12
+
+ -- HamoniKR <pkg@hamonikr.org>  Mon, 02 Nov 2020 16:45:08 +0900
+
 hamonikr-artwork (2.1.6) jin; urgency=medium
 
-  * Update usr/share/glib-2.0/schemas/mint-artwork.gschema.override
-   - Add xapp-status@cinnamon.org applet as default
+  * Add usr/share/glib-2.0/schemas/10_hamonikr.gschema.override
+   - Apply hamonikr setting only for easy debug
 
- -- HamoniKR <pkg@hamonikr.org>  Mon, 02 Nov 2020 13:51:58 +0900
+ -- HamoniKR <pkg@hamonikr.org>  Mon, 02 Nov 2020 16:28:26 +0900
+
+hamonikr-artwork (2.1.5) jin; urgency=medium
+
+  * Update usr/share/glib-2.0/schemas/mint-artwork.gschema.override
+   - www=['<Super>w']
+   - Add shortcut for open web-browser
+
+ -- HamoniKR <pkg@hamonikr.org>  Sun, 01 Nov 2020 12:10:15 +0900
  
 hamonikr-artwork (2.1.5) jin; urgency=medium
 

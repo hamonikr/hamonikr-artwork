@@ -20,7 +20,7 @@ font-name="Noto Sans CJK KR 10"
 gtk-key-theme='Default'
 gtk-theme='HamoniKR'
 icon-theme='HamoniKR'
-monospace-font-name="Ubuntu Mono Regular 12"
+monospace-font-name="Inconsolata Medium 12"
 toolkit-accessibility=false
 
 [org.gnome.desktop.background]
@@ -60,7 +60,7 @@ use-transparent-background=true
 visible-name='hamonikr-setting'
 
 [org.gnome.meld]
-custom-font='Ubuntu Mono Regular, 12'
+custom-font='Inconsolata Medium ,12'
 
 [org.gnome.settings-daemon.plugins.xsettings]
 hinting="slight"
@@ -181,7 +181,7 @@ font-name="Noto Sans CJK KR 10"
 gtk-theme="HamoniKR"
 icon-theme="HamoniKR"
 menus-have-icons=true
-monospace-font-name="Ubuntu Mono Regular 12"
+monospace-font-name="Inconsolata Medium 12"
 
 [org.mate.background]
 color-shading-type="solid"
