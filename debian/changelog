@@ -1,3 +1,32 @@
+hamonikr-artwork (2.2.1) jin; urgency=medium
+
+  * Updated usr/share/themes/HamoniKR/gtk-3.0/gtk.css
+   - changed gtk-3.0/gtk.css
+
+ -- HamoniKR <pkg@hamonikr.org>  Wed, 04 Nov 2020 17:40:53 +0900
+
+hamonikr-artwork (2.2.0) jin; urgency=medium
+
+  * Updated usr/share/themes/HamoniKR/cinnamon/cinnamon.css
+   - updated start menu design
+   - changed color(bottom panel, calendar, notification)
+
+ -- HamoniKR <pkg@hamonikr.org>  Wed, 04 Nov 2020 15:35:02 +0900
+
+hamonikr-artwork (2.1.9) jin; urgency=medium
+
+  * Changed usr/share/themes/HamoniKR/cinnamon/cinnamon.css
+   - changed start menu design
+
+ -- HamoniKR <pkg@hamonikr.org>  Mon, 02 Nov 2020 18:09:37 +0900
+
+hamonikr-artwork (2.1.8) jin; urgency=medium
+
+  * Removed usr/share/glib-2.0/schemas/10_hamonikr.gschema.override
+   - cause to duplicate setting update
+
+ -- HamoniKR <pkg@hamonikr.org>  Mon, 02 Nov 2020 16:52:21 +0900
+
 hamonikr-artwork (2.1.7) jin; urgency=medium
 
   * Updated usr/share/glib-2.0/schemas/10_hamonikr.gschema.override
