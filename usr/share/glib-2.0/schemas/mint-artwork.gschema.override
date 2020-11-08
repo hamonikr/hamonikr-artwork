@@ -1,12 +1,13 @@
 [x.dm.slick-greeter]
-theme-name='Mint-X'
+theme-name='HamoniKR'
 icon-theme-name='HamoniKR'
-font-name='Noto Sans CJK KR 10'
+font-name='Noto Sans CJK KR 9'
 background='/usr/share/backgrounds/hamonikr/default_background.jpg'
 draw-user-backgrounds=true
 
 [org.onboard]
-theme='/usr/share/mint-artwork/onboard/Nightshade.theme'
+theme='/usr/share/onboard/themes/Droid.theme'
+layout='/usr/share/onboard/layouts/Compact-ko.onboard'
 key-label-overrides=['RWIN:Super:', 'LWIN:Super:']
 status-icon-provider='AppIndicator'
 
@@ -20,7 +21,7 @@ font-name="Noto Sans CJK KR 10"
 gtk-key-theme='Default'
 gtk-theme='HamoniKR'
 icon-theme='HamoniKR'
-monospace-font-name="Inconsolata Medium 12"
+monospace-font-name="Droid Sans Mono 10"
 toolkit-accessibility=false
 
 [org.gnome.desktop.background]

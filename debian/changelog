@@ -1,3 +1,10 @@
+hamonikr-artwork (2.2.2) jin; urgency=medium
+
+  * Updated usr/share/glib-2.0/schemas/mint-artwork.gschema.override
+   - changed onboard theme and layout
+
+ -- HamoniKR <pkg@hamonikr.org>  Sun, 08 Nov 2020 15:50:52 +0900
+
 hamonikr-artwork (2.2.1) jin; urgency=medium
 
   * Updated usr/share/themes/HamoniKR/gtk-3.0/gtk.css
