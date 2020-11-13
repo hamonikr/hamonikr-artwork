@@ -1,3 +1,9 @@
+hamonikr-artwork (2.2.3) jin; urgency=medium
+
+  * Update usr/share/themes/HamoniKR/cinnamon.css
+   -changed menu bottom color
+ -- HamoniKR <pkg@hamonikr.org>  Fri, 13 Nov 2020 20:30:28 +0900
+
 hamonikr-artwork (2.2.2) jin; urgency=medium
 
   * Updated usr/share/glib-2.0/schemas/mint-artwork.gschema.override
