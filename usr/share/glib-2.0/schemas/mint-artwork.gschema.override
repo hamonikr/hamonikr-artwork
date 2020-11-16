@@ -10,9 +10,11 @@ theme='/usr/share/onboard/themes/Droid.theme'
 layout='/usr/share/onboard/layouts/Compact-ko.onboard'
 key-label-overrides=['RWIN:Super:', 'LWIN:Super:']
 status-icon-provider='AppIndicator'
+key-label-font='Noto Sans CJK KR 10'
 
 [org.onboard.theme-settings]
 key-label-overrides=['RWIN:Super:', 'LWIN:Super:']
+key-label-font='Noto Sans CJK KR 10'
 
 [org.gnome.desktop.interface]
 cursor-theme='HamoniKR-Cursor'
@@ -68,6 +70,8 @@ hinting="slight"
 
 [org.gnome.gnote]
 use-client-side-decorations='gnome,ubuntu,pop,cinnamon,cinnamon2d,mate,xfce'
+enable-custom-font=true
+custom-font-face='Noto Sans CJK KR 10'
 
 [org.cinnamon]
 favorite-apps=['naver-whale.desktop', 'mintinstall.desktop', 'cinnamon-settings.desktop', 'org.gnome.Terminal.desktop', 'nemo.desktop']
@@ -271,3 +275,6 @@ startup-mode='cwd'
 [com.github.maoschanz.drawing]
 decorations='ssd-symbolic'
 
+[org.x.viewer.plugins.pythonconsole]
+use-system-font=false
+font='Inconsolata Medium 9'

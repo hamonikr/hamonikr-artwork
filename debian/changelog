@@ -1,7 +1,17 @@
+hamonikr-artwork (2.2.4) jin; urgency=medium
+
+  * Update usr/share/glib-2.0/schemas/mint-artwork.gschema.override
+   - changed pythonconsole font and boolean value
+   - changed gnote font and size
+   - changed onboard font family
+   
+ -- HamoniKR <pkg@hamonikr.org>  Mon, 16 Nov 2020 11:59:21 +0900
+
 hamonikr-artwork (2.2.3) jin; urgency=medium
 
   * Update usr/share/themes/HamoniKR/cinnamon.css
    -changed menu bottom color
+
  -- HamoniKR <pkg@hamonikr.org>  Fri, 13 Nov 2020 20:30:28 +0900
 
 hamonikr-artwork (2.2.2) jin; urgency=medium
