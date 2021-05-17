@@ -1,3 +1,11 @@
+hamonikr-artwork (2.2.5) jin; urgency=medium
+
+  * Update usr/share/glib-2.0/schemas/mint-artwork.gschema.override
+   - Removed [com.github.maoschanz.drawing]
+   - Appear error message after install drawing=0.8.1hamonikr1
+   
+ -- HamoniKR <pkg@hamonikr.org>  Mon, 17 May 2021 18:36:29 +0900
+
 hamonikr-artwork (2.2.4) jin; urgency=medium
 
   * Update usr/share/glib-2.0/schemas/mint-artwork.gschema.override

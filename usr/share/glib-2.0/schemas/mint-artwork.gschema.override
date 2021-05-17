@@ -272,9 +272,6 @@ on-screen-keyboard='<Alt><Mod4>k'
 sort-directories-first=true
 startup-mode='cwd'
 
-[com.github.maoschanz.drawing]
-decorations='ssd-symbolic'
-
 [org.x.viewer.plugins.pythonconsole]
 use-system-font=false
 font='Inconsolata Medium 9'
